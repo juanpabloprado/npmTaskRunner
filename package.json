@@ -8,6 +8,9 @@
     "copy-files": "cp src/*.html build/ & cp src/*.css build/",
     "build": "npm run copy-files && npm run uglify"    
   },
+  "engines": {
+    "node": "6.10.3"
+  },
   "author": "Andrew Chalkley",
   "license": "MIT",
   "devDependencies": {
